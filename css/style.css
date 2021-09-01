@@ -12,6 +12,7 @@ h1{
 
 h2{
     margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .v_align{
@@ -86,6 +87,18 @@ h2{
     border-radius: 20px;
     font-size: 15px;
     padding: 3px 8px;
+}
+
+.status_complete{
+    border-color:green;
+    color:green;
+
+}
+
+.status_incomplete{
+    border-color:red;
+    color:red;
+
 }
 
 #page_background{

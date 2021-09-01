@@ -36,6 +36,7 @@ h1{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-top: 0;
+    padding-top: 50px;
 
 }
 
@@ -47,6 +48,41 @@ h1{
     border-radius: 5px;
     font-weight: bold;
     
+}
+
+.list_title{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(82, 82, 82);
+    list-style-type: none;
+}
+
+.list_subtitle{
+    font-weight:normal;
+    list-style-type: none;
+    padding-left: 7px;
+}
+
+.list_status{
+    font-size: small;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.list_type{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 3px 5px;
 }
 
 #page_background{

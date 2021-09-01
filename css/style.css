@@ -10,7 +10,9 @@ h1{
     font-size: 40px;
 }
 
-
+h2{
+    margin-bottom: 10px;
+}
 
 .v_align{
     vertical-align: middle;
@@ -51,7 +53,7 @@ h1{
 
 .list_title{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color:rgb(82, 82, 82);
     list-style-type: none;
     margin-bottom: 20px;
@@ -82,8 +84,8 @@ h1{
     vertical-align: middle;
     border: 1px solid grey;
     border-radius: 20px;
-    font-size: 20px;
-    padding: 3px 5px;
+    font-size: 15px;
+    padding: 3px 8px;
 }
 
 #page_background{

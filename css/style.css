@@ -17,15 +17,27 @@ h1{
 }
 
 
-.main_container_head{
+.main_container{
     width:1000px;
     height: 70px;
-    margin: 60px auto;
+    margin: 60px auto 3px;
     background-color: white;
-    border-radius: 15px;
     padding: 20px 80px;
 }
 
+.container_head{
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container_body{
+    height: 500px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+
+}
 
 
 .page_button{
@@ -38,7 +50,7 @@ h1{
 }
 
 #page_background{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(243, 243, 243);
 }
 
 #add_task{

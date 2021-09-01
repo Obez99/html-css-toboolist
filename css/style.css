@@ -8,15 +8,54 @@
 h1{
     display:inline-block;
     font-size: 40px;
+}
+
+
+
+.v_align{
     vertical-align: middle;
+}
+
+
+.main_container_head{
+    width:1000px;
+    height: 70px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 80px;
+}
+
+
+
+.page_button{
+    width: 100px;
+    height: 35px;
+    border:0;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+#page_background{
+    background-color: rgb(236, 236, 236);
+}
+
+#add_task{
+    background-color:rgb(0, 160, 209);
+    color: white;
+
+}
+
+#add_section{
+    background-color: white;
+    color:lightgray;
+    border: 1px solid lightgray;
+
 }
 
 #header_container{
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
 }
-
-
-#logo{
-    vertical-align: middle;
-}
-

@@ -64,7 +64,7 @@ h2{
     font-weight:normal;
     list-style-type: none;
     padding-left: 7px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .list_status{
@@ -83,10 +83,11 @@ h2{
 .list_type{
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid grey;
     border-radius: 20px;
     font-size: 15px;
-    padding: 3px 8px;
+    font-weight: bold;
+    padding: 5px 15px;
+    color:white;
 }
 
 .status_complete{
@@ -101,12 +102,38 @@ h2{
 
 }
 
+.type_editorial{
+    background-color:rgb(23, 185, 235);
+}
+
+.type_q1goals{
+    background-color:slateblue;
+}
+
+.type_recruiting{
+    background-color:mediumseagreen
+}
+
+.type_mobile{
+    background-color:darkorange;
+}
+
+.type_website{
+    background-color:fuchsia;
+}
+
+.type_sales{
+    background-color:olive;
+}
+
+
 #page_background{
     background-color: rgb(243, 243, 243);
+    height: 1000px;
 }
 
 #add_task{
-    background-color:rgb(0, 160, 209);
+    background-color:rgb(23, 185, 235);
     color: white;
 
 }
